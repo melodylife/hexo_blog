@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: 畅畅的黑魔法工坊
+subtitle: All topics are about technique
+description: This is my own place to share some technical stuff
+author: Chang Sun
+  language:zh-cn
 timezone:
 
 # URL

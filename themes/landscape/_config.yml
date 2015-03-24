@@ -2,6 +2,7 @@
 menu:
   Home: /
   Archives: /archives
+  Repo: https://github.com/melodylife
 rss: /atom.xml
 
 # Content
