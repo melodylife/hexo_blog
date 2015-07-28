@@ -1,0 +1,28 @@
+#!/bin/bash
+#chkconfig:2345 80 05 --指定在哪几个级别执行，0一般指关机，
+#6指的是重启，其他为正常启动。80为启动的优先级，05为关闭的优先机
+#description: hexo blog start service
+RETVAL=0
+start(){ 
+echo -n "starting Chang's Magic Workshop"
+cd /home/sunchang/blog_workshop
+sudo nohup hexo server -p 80 > /dev/null 2>&1 &
+echo 
+}
+
+stop(){
+echo "Close the workshop"
+pId=`ps aux | grep "sudo nohup hexo server -p 80" | grep -v grep | awk {'print $2'}`
+sudo kill $pId
+echo 
+}
+
+case $1 in
+start)
+start
+;;
+stop)
+stop
+;;
+esac
+exit $RETVAL
