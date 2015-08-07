@@ -1,6 +1,6 @@
 title: "Markdown Cheat Sheet"
 date: 2015-03-24 06:47:23
-tags:
+tags: [Markdown,blog writing,cheatsheet]
 ---
 ##Let's get familiar with the markdown cheat sheet##
 [Markdown Syntax Cheat Sheet](http://blog.lib.umn.edu/crosb002/leadership/Markdown_Cheat_Sheet.pdf)

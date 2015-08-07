@@ -69,11 +69,20 @@ pagination_dir: page
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
 theme: icarus
 
+plugins:
+  - hexo-generator-feed
+  - hexo-generator-sitemap
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
 # Disqus
 # disqus_shortname: hexo-theme-icarus
 
 # DuoShuo
-# duoshuo_shortname: hexo-theme-icarus
+duoshuo_shortname: changworkshop
 
 
 # Deployment

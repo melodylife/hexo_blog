@@ -1,6 +1,6 @@
 title: "Debug android chrome via desktop chrome"
 date: 2015-05-26 03:13:12
-tags:
+tags: [android,debug,chrome]
 comments: true
 ---
 

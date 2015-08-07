@@ -1,6 +1,6 @@
 title: "如何找到openwrt/pandorabox的可使用的源"
 date: 2015-06-12 12:37:22
-tags:
+tags: [openwrt,package source,xiaomi mini,pandora]
 ---
 
 最近倒腾了一下家里的小米路由器mini，装上了pandora，但是竟然发现无法安装curl。可能是从前的源里面没有curl吧。
