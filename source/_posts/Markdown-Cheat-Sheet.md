@@ -3,8 +3,8 @@ date: 2015-03-24 06:47:23
 tags: [Markdown,blog writing,cheatsheet]
 ---
 ##Let's get familiar with the markdown cheat sheet##
-[Markdown Syntax Cheat Sheet](http://blog.lib.umn.edu/crosb002/leadership/Markdown_Cheat_Sheet.pdf)
 [Cheat sheet on github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+<!--more-->
 ### Headers
 #H1 
 ```markdown
@@ -30,6 +30,7 @@ tags: [Markdown,blog writing,cheatsheet]
 ```markdown
 ######
 ```
+
 ---
 ### Blockquotes
 效果如下
