@@ -4,7 +4,7 @@ tags: [GTM,Google Tag Manager,Usage,images/gtm-usage-1]
 ---
 
 ## 简介
-Google Tag Manager, 简称GTM，是目前Google推出的web标签管理工具。这个工具看似不起眼，其实非常强队，尤其是对于做网站分析，推广，还有Google广告产品的重度用户。比如Adwords，GA又或者Double Click相关产品，甚至于一些非Google产品的标签都可以进行管理，比如LinkedIn等等。最近在折腾自己的Blog。为了提高逼格，特意用了Hexo。虽然Hexo的主题基本都原生支持了GA，但是依然觉得不是很放心，索性尝试了一下GTM，感觉非常不错，所以这里分享一点自己的经验给大家。希望能帮到大家。
+Google Tag Manager, 简称GTM，是目前Google推出的web标签管理工具。这个工具看似不起眼，其实非常强大，尤其是对于做网站分析，推广，还有Google广告产品的重度用户。比如Adwords，GA又或者Double Click相关产品，甚至于一些非Google产品的标签都可以进行管理，比如LinkedIn等等。最近在折腾自己的Blog。为了提高逼格，特意用了Hexo。虽然Hexo的主题基本都原生支持了GA，但是依然觉得不是很放心，索性尝试了一下GTM，感觉非常不错，所以这里分享一点自己的经验给大家。希望能帮到大家。
 
 <!--more-->
 ## 注册并安装Container
@@ -21,7 +21,7 @@ Google Tag Manager, 简称GTM，是目前Google推出的web标签管理工具。
 将代码埋入需检测网站的以下标签中
 
 ```html
-<head></head>
+<body></body>
 ```
 至此，布码就已经完成了。以后任何给页面添加新的网页标签，tag，都不用改动网页上面的代码了，很简单吧。那么我们看看如何实现用GTM实现GA pageview的功能。
 
